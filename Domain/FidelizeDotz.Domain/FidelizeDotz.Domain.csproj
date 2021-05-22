@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Adapters\" />
+    <Folder Include="Application\Dtos\Settings\" />
+    <Folder Include="Application\Dtos\Response\" />
+    <Folder Include="Application\Dtos\Request\" />
+    <Folder Include="Application\Services\Interfaces\" />
+    <Folder Include="Application\Validations\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Infra\Data\Mappings\" />
+  </ItemGroup>
+
+</Project>
